@@ -5,7 +5,7 @@ const upFirstWithDeleteIndexLetter = (text: string): string => {
         .map((element: string, index: number) => {
             let elementUp = element.charAt(0).toUpperCase() + element.slice(1);
 
-            if (index === 0) {
+            if (!index) {
                 indexDelete = elementUp.length;
             }
 

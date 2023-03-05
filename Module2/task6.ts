@@ -17,7 +17,7 @@ const users: User[] = [
     }
 ];
 
-function logPerson(user: User) {
+function logPerson(user: User):void {
     console.log(` - ${user.name}, ${user.age}`);
 }
 

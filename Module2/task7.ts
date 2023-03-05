@@ -35,7 +35,7 @@ const persons: Person[] = [
     }
 ];
 
-function logPerson(user: User | Admin) {
+function logPerson(user: Person): void {
     console.log(` - ${user.name}, ${user.age}`);
 }
 

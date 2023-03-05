@@ -1,4 +1,3 @@
-
 const areEquals = (firstObject: object, secondObject: object) : boolean =>
     JSON.stringify(firstObject) === JSON.stringify(secondObject);
 
